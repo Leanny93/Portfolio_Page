@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f1eb;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Navbar Styles */
+  #navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #3e4e50;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #navbar ul {
+    list-style-type: none;
+    padding: 15px;
+  }
+  
+  #navbar ul li {
+    display: inline;
+    margin: 0 20px;
+  }
+  
+  #navbar ul li a {
+    color: #f4f1eb;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #navbar ul li a:hover {
+    color: #f9b461;
+    text-decoration: underline;
+  }
+  
+  /* Welcome Section */
+  #welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e6d8c3;
+    color: #3e4e50;
+    text-align: center;
+  }
+  
+  #welcome-section h1 {
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+  }
+  
+  #welcome-section p {
+    font-size: 1.4rem;
+    max-width: 600px;
+    line-height: 1.8;
+  }
+  
+  /* Projects Section */
+  #projects {
+    padding: 50px 20px;
+    background-color: #faf3e3;
+    text-align: center;
+  }
+  
+  #projects h2 {
+    margin-bottom: 30px;
+    color: #3e4e50;
+  }
+  
+  .project-tile {
+    margin: 15px 0;
+  }
+  
+  .project-tile a {
+    text-decoration: none;
+    color: #3e4e50;
+    font-size: 1.3rem;
+    background-color: #f9b461;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project-tile a:hover {
+    background-color: #ed9567;
+    color: #fff;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #3e4e50;
+    color: #f4f1eb;
+  }
+  #profile-link {
+    color: #f4f1eb;
+    text-decoration: none;
+  }
+  
+  /* Media Query */
+  @media (max-width: 600px) {
+    #welcome-section h1 {
+      font-size: 2.5rem;
+    }
+  
+    #navbar ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
